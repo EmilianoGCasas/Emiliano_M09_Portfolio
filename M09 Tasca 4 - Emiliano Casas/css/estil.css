@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url(../images/forest.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+div#article {
+	width: 800px;
+	height: 200px;
+	margin: auto;
+	margin-top: 150px;
+}
+img {
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	background-color: white;
+	transition: background-color 0.5s;
+	box-shadow: inset 0px 0px 10px #565656;
+	margin: 15px;
+}
+
+img:hover {
+	background-color: darkgrey;
+	box-shadow: inset 0px 0px 15px black;
+	cursor: pointer;
+}
+article {
+
+	margin: auto;
+	background-color: floralwhite;
+	width: 801px;
+	height: 250px;
+	border: 3px solid burlywood;
+	text-align: justify;
+}
+p {
+	padding: 10px;
+}
+#img1,#img3 {
+	float:left;
+}
+#img2 {
+	float:right;
+}
+
+/*ADICIONES Y  CAMBIOS*/
+body {
+	background-size: 100%;
+}
+article {
+	overflow: hidden;
+}
+article:hover {
+	background-color: lightgreen;
+}
+h1 {
+	text-align: center;
+	font-size: 180px;
+	color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+@media (max-width: 820px) {
+	article {
+		margin: auto;
+		width: 500px;
+		height: 400px;
+	}
+	h1 {
+		font-size: 110px;
+	}
+}

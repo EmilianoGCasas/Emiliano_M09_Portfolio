@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.js"
+		integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+		crossorigin="anonyous">
+	</script>	
+</head>
+<body>
+	<header class="header">
+		<div class="title">
+			<h1 class="h1">Title</h1>
+		</div>
+		<div class="menu_box">
+			<div class="menu">
+				<div class="option"></div>
+				<div class="option"></div>
+				<div class="option"></div>
+				<div class="option"></div>
+				<div class="option"></div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="left_big_aside">
+			<div class="article"><br>lorem ipsum is a placeholder text</div>
+			<div class="article"><br>lorem ipsum is a placeholder text</div>
+			<div class="article"><br>lorem ipsum is a placeholder text</div>
+			<div class="article"><br>lorem ipsum is a placeholder text</div>
+			<div class="article"><br>lorem ipsum is a placeholder text</div>
+		</div>
+		<div class="right_big_aside">
+			<div class="right_top_box">
+				<div class="left_little_aside">
+					<button class="button" data-boxes="no" type="button">Click me!</button>
+				</div>
+				<div class="right_little_aside">
+					<div class="box">
+						<img class="img" src="images/volcano.jpeg">
+					</div>
+					<div class="box">
+						<img class="img" src="images/image.jpeg">
+					</div>
+				</div>
+			</div>
+			<div class="right_bottom_box">
+				<img class="img" src="images/corn.jpg">
+			</div>
+		</div>
+	</main>
+	<footer class="footer"></footer>
+	<script>
+		$(document).ready(function() {
+			const button = $(".button");
+			const eles = $(".header *, .main *");
+			button.on("click", function() {
+				if (button.attr("data-boxes") == "no") {
+					button.attr("data-boxes", "yes");
+					eles.each(function() {
+						$(this).attr("style", "border-radius: 80px;");
+					});
+				} else {
+					button.attr("data-boxes", "no");
+					eles.each(function() {
+						$(this).attr("style", "border-radius: 0px;");
+					});
+				}
+			});
+		});
+	</script>
+</body>
+</html>

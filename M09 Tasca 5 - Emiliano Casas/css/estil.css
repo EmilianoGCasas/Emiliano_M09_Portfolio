@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+div#foto {
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/hedgehog_1.jpg);
+	background-size: 100%;
+	border: 3px solid black;
+	position: relative;
+}
+div#info {
+	width: 300px;
+	height: 300px;
+	background-color: cornflowerblue;
+	opacity: 0;
+	font-family: "Gill Sans", sans-serif;
+}
+div#foto:hover #info {
+	opacity: 1;
+}
+h3 {
+	padding: 20px;
+	font-weight: bold;
+}
+p {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: white;
+}
+button {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 30%;
+	height: 10%;
+	border: 0;
+	background-color: gray;
+	color: white;
+	font-weight: bold;
+}
+
+button:hover {	
+	border: 5px dashed red;
+	width: 40%;
+	height: 20%;
+	color: red;
+	background-image: url(../images/hedgehog_111.jpg);
+	background-size: 100%;
+}
