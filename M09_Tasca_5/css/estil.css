@@ -41,7 +41,7 @@ button {
 	font-weight: bold;
 }
 
-button:hover {	
+button:hover {
 	border: 5px dashed red;
 	width: 40%;
 	height: 20%;

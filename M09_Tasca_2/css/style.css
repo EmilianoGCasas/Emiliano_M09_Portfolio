@@ -85,13 +85,13 @@ body {
 .article:nth-child(2n) {
 	top: 25%;
 }
-.article:nth-child(3n) {	
+.article:nth-child(3n) {
 	top: 45%;
 }
-.article:nth-child(4n) {	
+.article:nth-child(4n) {
 	top: 65%
 }
-.article:nth-child(5n) {	
+.article:nth-child(5n) {
 	top: 85%
 }
 .right_big_aside {
