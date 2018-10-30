@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tests</title>
+	<style>
+		* {
+			background-color: blue;
+		}
+
+		body {
+			position: relative;
+		}
+
+		div {
+			position: absolute;
+			height: 50px;
+			width: 300px;
+			border: 1px solid black;
+		}
+
+		#div1 {
+			left: 0%;
+		}
+
+		#div2 {
+			top: 20%;
+		}
+
+		:not(#div1) {
+			background-color: lightcyan;
+
+		}
+
+		#div2:hover #div1 {
+			transition: 50% left;
+			background-color: yellow;
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<div id="div1">asdf</div>
+		<div id="div2">hover</div>
+	</main>
+</body>
+</html>

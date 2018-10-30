@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.offers {
+	height: 800px;
+	width: 800px;
+}
+.offer {
+/*	border: .5px solid black; */
+	width: 300px;
+	height: 300px;
+	position: relative;
+/*	float: left;*/
+/*	overflow: hidden;*/
+
+/*	??? */
+	display: block;
+}
+.offer_img {
+	position: absolute;
+/*	display: block;*/
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+/*	bottom: -100%*/
+/*	float: left;*/
+}
+.offer_text {
+	height: 300px;
+	width: 300px;
+	color: white;
+	background-color: black;
+/*
+	background-color:lightcyan;
+	position: absolute;
+	overflow: hidden;
+	float: left;
+	width: 300px;
+	height: 300px;
+*/
+	position: absolute;
+	right: 0%;
+/*	z-index: 1;*/
+}
+.offer:hover .offer_text {
+	right: -100%;
+	transition: right .5s;
+	transition-timing-function: ease;
+}
