@@ -2,3 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+.links {
+	background-color: lightpink;
+	width: 150px;
+}
+body {
+	background-image: URL("images/some-mountain.jpeg");
+}
