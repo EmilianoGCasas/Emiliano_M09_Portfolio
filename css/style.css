@@ -7,5 +7,5 @@
 	width: 150px;
 }
 body {
-	background-image: URL("/images/passion-raccoon.jpg");
+	background-image: url("../images/passion-raccoon.jpg");
 }
