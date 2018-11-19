@@ -16,14 +16,14 @@
 }
 
 .content {
-	background-color:floralwhite;
+	background-color: floralwhite;
 	width: 992px;
 	margin: 0 auto;
 }
 
 .header {
 	background-color: antiquewhite;
-	height: 100px;
+	height: 75px;
 }
 
 .nav-bar {
@@ -54,7 +54,7 @@
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	height: 800px;
+	height: 825px;
 }
 
 .banner {
@@ -63,7 +63,7 @@
 }
 
 .welcome {
-	height: 47%;
+	height: 50%;
 	position: relative;
 }
 
@@ -74,6 +74,7 @@
 	z-index: 1;
 	display: flex;
 	flex-direction: row;
+	padding: 5px 0;
 }
 
 .welcome_opacity {
@@ -86,14 +87,57 @@
 }
 
 .welcome_text {
-	background-color: black;
-	height: 50px;
-	width: 50px;
+	/*	background-color: black;*/
+	height: 100%;
+	width: 33.3333%;
+	font-size: 14;
+	padding: 5px;
+}
+
+.welcome_image {
+	background-color: yellow;
+	height: 100%;
+	width: 33.3333%;
+}
+
+#welcome_text_1 {
+	text-align: right;
+}
+
+.sponsors {
+	background-color: green;
+	height: 17%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.sponsor {
+	background-color: lightgreen;
+	height: 100px;
+	width: 100px;
+}
+
+.footer {
+	background-color: darksalmon;
+	height: 75px;
 }
 
 /* medium */
 
+@media (max-width: 992px) {
+	.content {
+		width: 768px;
+	}
+}
+
 /* small */
+
+@media (max-width: 768px) {
+	.content {
+		width: 576px;
+	}
+}
 
 /* extra small */
 
