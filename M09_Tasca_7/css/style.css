@@ -120,9 +120,10 @@
 .sponsors {
 	background-color: green;
 	height: 17%;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+	display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 .sponsor {
@@ -156,7 +157,6 @@
 	}
 
 	.banner {
-		background-color: red;
 		height: 27%;
 	}
 
@@ -167,6 +167,7 @@
 
 	.welcome_content {
 		flex-direction: column;
+		align-content: center;
 	}
 
 	.welcome_text {
@@ -194,11 +195,42 @@
 
 	.sponsors {
 		height: 30%;
-/*		display: grid;*/
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto;
 	}
 }
 
 /* extra small */
+@media (max-width: 575px) {
+	.content {
+		width: 320px;
+	}
+	.main {
+		height: 1425px;
+	}
+	.sponsors {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+	}
+
+/*
+	.welcome {
+		height: 50%;
+	}
+
+	.banner {
+		height: 20%;
+	}
+
+	.welcome_text {
+		height: 40%;
+	}
+
+	.welcome_image_box {
+		height: 20%;
+	}
+*/
+}
 
 /* VOLVER */
 #volver_div {
