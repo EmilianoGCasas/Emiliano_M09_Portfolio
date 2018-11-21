@@ -1,8 +1,4 @@
 /* Tasca 7 */
-/* PAGE 1 */
-/* Responsive for extra small (<576px), small(>=576px), medium(>=768px) and large(>=992px) */
-/* The opacity problem: http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/ */
-/* Reordering content with flex: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items */
 * {
 	padding: 0px;
 	margin: 0px;
@@ -12,19 +8,17 @@
 /* large */
 
 .body {
-/*	background-color: azure;*/
 	background-image: url("../images/forest2.jpeg");
+	background-attachment: fixed;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .content {
-/*	background-color: floralwhite;*/
 	width: 992px;
 	margin: 0 auto;
 }
 
 .header {
-/*	background-color: antiquewhite;*/
 	height: 75px;
 	display: flex;
 	flex-direction: column;
@@ -131,6 +125,24 @@
 	text-align: right;
 }
 
+.under_const {
+	height: 50%;
+	position: relative;
+	display: none;
+	justify-content: center;
+}
+
+.under_const_img_box {
+	height: 75%;
+	width: 75%;
+}
+
+.under_const_img {
+	object-fit: contain;
+	height: 100%;
+	width: 100%;
+}
+
 .sponsors {
 	height: 17%;
 	display: grid;
@@ -138,14 +150,6 @@
   justify-items: center;
   align-items: center;
 }
-
-/*
-.sponsors_img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
-*/
 
 .sponsor {
 	background-color: lightgreen;
@@ -160,7 +164,6 @@
 }
 
 .footer {
-/*	background-color: darksalmon;*/
 	height: 75px;
 	text-align: center;
 	display: flex;
@@ -236,6 +239,7 @@
 }
 
 /* extra small */
+
 @media (max-width: 575px) {
 	.content {
 		width: 320px;
@@ -249,7 +253,7 @@
 	}
 
 	.welcome {
-		height: 50%;
+		height: 55%;
 	}
 
 	.banner {
