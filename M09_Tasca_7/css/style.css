@@ -56,6 +56,10 @@
 	border-right: 1px solid gainsboro;
 }
 
+#nav-tab-2:hover {
+	background-color: oldlace;
+}
+
 .main {
 	background-color: floralwhite;
 	padding: 8px;

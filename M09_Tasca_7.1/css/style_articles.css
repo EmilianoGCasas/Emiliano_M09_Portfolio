@@ -56,6 +56,10 @@
 	border-left: 1px solid darkseagreen;
 }
 
+#nav-tab-1:hover {
+	background-color: oldlace;
+}
+
 .main {
 	background-color: floralwhite;
 	padding: 8px;
