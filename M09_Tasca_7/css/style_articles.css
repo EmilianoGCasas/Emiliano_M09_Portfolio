@@ -46,23 +46,23 @@
 }
 
 #nav-tab-2 {
-	border-top: 1px solid saddlebrown;
-	border-left: 1px solid saddlebrown;
-	border-right: 1px solid saddlebrown;
+	border-top: 1px solid darkseagreen;
+	border-left: 1px solid darkseagreen;
+	border-right: 1px solid darkseagreen;
 }
 
 #nav-tab-1 {
-	border-bottom: 1px solid saddlebrown;
-	border-top: 1px solid darkseagreen;
-	border-left: 1px solid darkseagreen;
+	border-bottom: 1px solid darkseagreen;
+	border-top: 1px solid gainsboro;
+	border-left: 1px solid gainsboro;
 }
 
 .main {
 	background-color: floralwhite;
 	padding: 8px;
-	border-bottom: 1px solid saddlebrown;
-	border-left: 1px solid saddlebrown;
-	border-right: 1px solid saddlebrown;
+	border-bottom: 1px solid darkseagreen;
+	border-left: 1px solid darkseagreen;
+	border-right: 1px solid darkseagreen;
 	height: 825px;
 }
 
@@ -165,7 +165,6 @@
 }
 
 .sponsor {
-	background-color: lightgreen;
 	height: 100px;
 	width: 100px;
 }

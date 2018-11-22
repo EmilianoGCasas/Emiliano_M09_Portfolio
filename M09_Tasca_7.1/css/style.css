@@ -32,6 +32,38 @@
 .nav-bar {
 	height: 50px;
 	display: flex;
+
+	display: none;
+
+}
+
+.nav-bar-lines {
+/*	display: none;*/
+	height: 50px;
+	background-color: floralwhite;
+	border: 1px solid saddlebrown;
+}
+
+#btn_menu {
+	display: none;
+}
+
+.nav-bar-lines label {
+	display: block;
+	width: 50px;
+	height: 50px;
+/*	padding: 5px;*/
+}
+
+.nav-bar-lines label:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0.1);
+}
+
+.nav-bar-lines img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .nav-tab {
@@ -44,28 +76,29 @@
 	text-decoration: none;
 }
 
-#nav-tab-1 {
-	border-top: 1px solid darkseagreen;
-	border-left: 1px solid darkseagreen;
-	border-right: 1px solid darkseagreen;
+#nav-tab-2 {
+	border-top: 1px solid saddlebrown;
+	border-left: 1px solid saddlebrown;
+	border-right: 1px solid saddlebrown;
 }
 
-#nav-tab-2 {
-	border-bottom: 1px solid darkseagreen;
-	border-top: 1px solid gainsboro;
-	border-right: 1px solid gainsboro;
+#nav-tab-1 {
+	border-bottom: 1px solid saddlebrown;
+	border-top: 1px solid darkseagreen;
+	border-left: 1px solid darkseagreen;
 }
 
 .main {
 	background-color: floralwhite;
 	padding: 8px;
-	border-bottom: 1px solid darkseagreen;
-	border-left: 1px solid darkseagreen;
-	border-right: 1px solid darkseagreen;
+	border-bottom: 1px solid saddlebrown;
+	border-left: 1px solid saddlebrown;
+	border-right: 1px solid saddlebrown;
 	height: 825px;
 }
 
 .banner {
+	background-color: red;
 	height: 33%;
 }
 
@@ -75,56 +108,65 @@
 	height: 100%;
 }
 
-.welcome {
+.articles {
 	height: 50%;
 	position: relative;
 }
 
-.welcome_content {
+.articles_content {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	padding: 5px 0;
 }
 
-.welcome_opacity {
-	position: absolute;
+.article {
 	width: 100%;
-	height: 100%;
-	opacity: 0.1;
-	z-index: -1;
+	height: 33.333%;
+	position: relative;
+	margin-top: 10px;
 }
 
-.welcome_text {
+.article_img {
+	background-color: darkcyan;
+	position: absolute;
+	width: 50%;
 	height: 100%;
-	width: 33.3333%;
+	z-index: 1;
+	object-fit: cover;
 	padding: 5px;
 }
 
-.welcome_image_box {
+.article_img.img1 {
+	object-position: 50% 45%;
+}
+
+.article_img.img2 {
+	object-position: 50% 64%;
+}
+
+.article_img.img3 {
+	object-position: 50% 23%;
+}
+
+.article_text {
 	height: 100%;
-	width: 33.3333%;
+	width: 50%;
+	color: white;
+	background-color: darkcyan;
+	position: absolute;
+	right: 50%;
+	padding: 10px;
+	font-size: .90em;
 }
 
-.welcome_image {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
-
-#image_waterfall {
-	display: inline;
-}
-
-#image_river {
-	display: none;
-}
-
-#welcome_text_1 {
-	text-align: right;
+.article:hover .article_text {
+	right: 0%;
+	transition: right .5s;
+	transition-timing-function: ease;
 }
 
 .under_const {
@@ -148,12 +190,13 @@
 .sponsors {
 	height: 17%;
 	display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-items: center;
-  align-items: center;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+	align-items: center;
 }
 
 .sponsor {
+	background-color: lightgreen;
 	height: 100px;
 	width: 100px;
 }
@@ -172,7 +215,8 @@
 	justify-content: center;
 }
 
-.footer > p,h4 {
+.footer > p,
+h4 {
 	color: white;
 }
 
@@ -181,6 +225,18 @@
 @media (max-width: 992px) {
 	.content {
 		width: 768px;
+	}
+
+	.banner {
+		height: 28%;
+	}
+
+	.articles {
+		height: 56%;
+	}
+
+	.article_img.img2 {
+		object-position: 50% 70%;
 	}
 }
 
@@ -192,44 +248,20 @@
 	}
 
 	.main {
-		height: 925px;
+		height: 980px;
 	}
 
 	.banner {
-		height: 27%;
+		height: 20%;
 	}
 
-	.welcome {
-		height: 45%;
+	.articles {
+		height: 57%;
 		position: relative;
 	}
 
-	.welcome_content {
-		flex-direction: column;
-		align-content: center;
-	}
-
-	.welcome_text {
-		width: 100%;
-		height: 33.3333%;
-		font-size: 14px;
-	}
-
-	#welcome_text_1 {
-		text-align: left;
-	}
-
-	.welcome_image_box {
-		width: 100%;
-		height: 33.333%;
-	}
-
-	#image_waterfall {
-		display: none;
-	}
-
-	#image_river {
-		display: block;
+	.article_img.img2 {
+		object-position: 50% 75%;
 	}
 
 	.sponsors {
@@ -245,12 +277,43 @@
 	.content {
 		width: 320px;
 	}
+
 	.main {
-		height: 1425px;
+		height: 1725px;
 	}
+
+	.banner {
+		height: 2%;
+		max-height: 200px;
+	}
+
+	.articles {
+		height: 62%;
+		position: relative;
+	}
+
+	.article_img {
+		width: 100%;
+		height: 50%;
+	}
+
+	.article_text {
+		height: 50%;
+		width: 100%;
+		bottom: 50%;
+		left: 0%
+	}
+
+	.article:hover .article_text {
+		bottom: 0%;
+		transition: right .5s;
+		transition-timing-function: ease;
+	}
+
 	.sponsors {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto;
+		height: 28%;
 	}
 
 	.welcome {
