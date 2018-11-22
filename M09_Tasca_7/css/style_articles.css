@@ -30,7 +30,6 @@
 }
 
 .nav-bar {
-	background-color: aqua;
 	height: 50px;
 	display: flex;
 }
@@ -71,7 +70,6 @@
 }
 
 .banner {
-	background-color: red;
 	height: 33%;
 }
 
