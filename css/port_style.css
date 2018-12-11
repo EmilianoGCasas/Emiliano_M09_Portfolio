@@ -65,16 +65,33 @@ a {
 	flex: 0 0 50%;
 }
 
+.headshot1 img {
+	max-width: 100%;
+/*	max-height: 500px;*/
+	object-fit: cover;
+	border-radius: 50%;
+}
+
 .headshot2 {
 	background-color: blueviolet;
 
 	display: none;
+	flex: 0 0 50%;
+/*	min-height: 250px;*/
+}
+
+.headshot2 img {
+	min-width: 100%;
+/*	min-height: 100%;*/
+	object-fit: cover;
+	max-height: 300px;
+	border-radius: 50%;
 }
 
 .about_me {
 	background-color: indianred;
 
-	flex-grow:
+	flex-wrap: wrap;
 }
 
 .about_me_header {
@@ -116,9 +133,19 @@ a {
 
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	width: 1000px;
 	flex-wrap: wrap;
+}
+
+.contact_info_column {
+	background-color: chartreuse;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	min-width: 50%;
+	flex: 1 1 auto;
 }
 
 .contact_info {
