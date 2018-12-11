@@ -1,0 +1,145 @@
+/*https://www.monetizemore.com/blog/best-mobile-ad-sizes-2014/*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+.main {
+	background-color: burlywood;
+
+	max-width: 1000px;
+	margin: auto;
+}
+
+.header {
+	background-color: lightgray;
+	/*	height: 200px;*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.hamburger {
+
+	display: none;
+}
+
+.nav-bar {
+	background-color: aquamarine;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.tab {
+	background-color: blue;
+	/*	height: 50px;*/
+	border: solid black 1px;
+
+	flex: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.headshot1 {
+	background-color: blueviolet;
+
+	flex: 0 0 50%;
+}
+
+.headshot2 {
+	background-color: blueviolet;
+
+	display: none;
+}
+
+.about_me {
+	background-color: indianred;
+
+	flex-grow:
+}
+
+.about_me_header {
+	background-color: yellow;
+}
+
+.about_me_header > p:first-child {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.about_me_header > p:last-child {
+	font-size: 1.5em;
+}
+
+.page_links {
+	background-color: darkkhaki;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.page_link {
+	background-color: darksalmon;
+
+}
+
+.footer {
+	background-color: cadetblue;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contact_info_box {
+	background-color: coral;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1000px;
+	flex-wrap: wrap;
+}
+
+.contact_info {
+	background-color: aliceblue;
+	border: solid black 1px;
+	display: flex;
+	flex-direction: row;
+	min-width: 200px;
+}
+
+.contact_info > * {
+	border: solid black 1px;
+
+	flex: 1 1 auto;
+}
+
+@media (max-width: 750px) {
+	.headshot1 {
+		display: none;
+	}
+	.headshot2 {
+		display: block;
+	}
+}
