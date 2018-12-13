@@ -201,10 +201,11 @@ a {
 	flex-direction: row;
 	width: 1000px;
 	flex-wrap: wrap;
+	padding: 15px 0;
 }
 
 .contact_info_column {
-	background-color: chartreuse;
+/*	background-color: chartreuse;*/
 
 	display: flex;
 	flex-direction: row;
@@ -215,18 +216,24 @@ a {
 }
 
 .contact_info {
-	background-color: aliceblue;
-	border: solid black 1px;
+/*	background-color: aliceblue;*/
+
 	display: flex;
 	flex-direction: row;
 	min-width: 200px;
+	margin: 15px;
 }
 
-.contact_info > div {
+.contact_info_text {
 	flex: 1 1 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-left: 15px;
+}
+
+.contact_info_text div {
+
 }
 
 .contact_info > i {
