@@ -18,7 +18,6 @@ body {
 
 .header {
 	background-color: lightgray;
-	/*	height: 200px;*/
 
 	display: flex;
 	flex-direction: row;
@@ -30,11 +29,6 @@ a {
 	text-decoration: none;
 }
 
-.hamburger {
-
-	display: none;
-}
-
 .nav-bar {
 	background-color: aquamarine;
 
@@ -44,7 +38,6 @@ a {
 
 .tab {
 	background-color: blue;
-	/*	height: 50px;*/
 	border: solid black 1px;
 
 	flex: auto;
@@ -53,6 +46,79 @@ a {
 	flex-direction: column;
 	justify-content: flex-end;
 }
+
+.hamburger {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#btn_menu {
+	display: none;
+}
+
+.hamburger label {
+	background-color: darkslategray;
+
+	cursor: pointer;
+	border-radius: 8%;
+}
+
+.hamburger label i {
+	color: white;
+
+	font-size: 1.3em;
+	margin: 10px;
+}
+
+.fa-times {
+	display: none;
+}
+
+.burger-menu {
+	background-color: darkgoldenrod;
+
+	position: absolute;
+	z-index: -10;
+	opacity: 0;
+	transition: opacity 0.3s;
+	left: 0%;
+	top: 0%;
+}
+
+#btn_menu:checked ~.burger-menu {
+	background-color: darkslategray;
+
+	opacity: 1;
+	z-index: 10;
+	width: 100vw;
+	height: 100vh;
+}
+
+#btn_menu:checked ~label {
+	z-index: 20;
+}
+
+#btn_menu:checked ~label>.fa-bars {
+	display: none;
+}
+
+#btn_menu:checked ~label>.fa-times {
+	display: inline-block;
+}
+
+/*
+@media screen and (max-width: 500px) {
+	.burger-menu {
+		border: groove black 15px;
+
+		opacity: 1;
+		z-index: 10;
+		width: 100vw;
+		height: 100vh;
+	}
+}
+*/
 
 .content {
 	display: flex;
@@ -67,7 +133,7 @@ a {
 
 .headshot1 img {
 	max-width: 100%;
-/*	max-height: 500px;*/
+	/*	max-height: 500px;*/
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -77,14 +143,14 @@ a {
 
 	display: none;
 	flex: 0 0 50%;
-/*	min-height: 250px;*/
+	/*	min-height: 250px;*/
 }
 
 .headshot2 img {
-	min-width: 100%;
-/*	min-height: 100%;*/
+	max-width: 100%;
+	/*	min-height: 100%;*/
 	object-fit: cover;
-	max-height: 300px;
+	/*	max-height: 300px;*/
 	border-radius: 50%;
 }
 
@@ -156,17 +222,52 @@ a {
 	min-width: 200px;
 }
 
-.contact_info > * {
-	border: solid black 1px;
+.contact_info > div {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact_info > i {
+	background-color: palevioletred;
 
 	flex: 1 1 auto;
+	border-radius: 50%;
+	font-size: 1.5em;
+	padding: 13px;
 }
 
 @media (max-width: 750px) {
 	.headshot1 {
 		display: none;
 	}
+
 	.headshot2 {
 		display: block;
 	}
+
+	.nav-bar {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
