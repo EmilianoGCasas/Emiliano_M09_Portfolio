@@ -27,6 +27,7 @@ body {
 a {
 	text-decoration: none;
 	font-weight: bold;
+	color: white;
 }
 
 .nav-bar {
@@ -45,10 +46,6 @@ a {
 
 .tab a {
 	color: #4d4d4d;
-}
-
-.nav-bar div:first-child a {
-	color: #68b08a;
 }
 
 .tab a:hover {
@@ -320,10 +317,60 @@ a {
 	}
 }
 
+.projects_page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 100px 0;
+}
 
+.projects_header_text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 2em;
+	color: #4d4d4d;
+}
 
+.projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
+.project {
+	flex: 0 0 auto;
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 25px;
+	text-align: center;
+}
 
+.project:hover {
+	cursor: pointer;
+}
+
+.project:hover img {
+	box-shadow: 5px 5px 10px gray;
+}
+
+.project img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 10px solid darkslategray;
+}
+
+.project h3 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 1.8em;
+	color: #4d4d4d;
+}
 
 
 
