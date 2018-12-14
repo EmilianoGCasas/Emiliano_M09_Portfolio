@@ -107,6 +107,13 @@ a {
 	text-shadow: 0px 0px 7px white;
 }
 
+.burger-menu hr {
+	border: none;
+	background-color: white;
+	width: 350px;
+	height: 2px;
+}
+
 #btn_menu:checked ~.burger-menu {
 	z-index: 10;
 	width: 100vw;
