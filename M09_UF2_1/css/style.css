@@ -159,24 +159,21 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* VOLVER */
+#volver_div {
+	background-color: rgb(0,0,0,.4);
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#volver_link {
+	font-weight: bold;
+	text-decoration-line: none;
+	font-family:monospace;
+	color: white;
+	opacity: 1;
+}
