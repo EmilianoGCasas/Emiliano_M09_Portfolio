@@ -1,0 +1,833 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"space",
+				"space-around\tjustify-content"
+			],
+			[
+				"object",
+				"object-fit\tproperty"
+			],
+			[
+				"ju",
+				"justify-content-around"
+			],
+			[
+				"border-",
+				"border-black"
+			],
+			[
+				"lo",
+				"logos"
+			],
+			[
+				"emp_mon",
+				"emp_months_counts"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"res",
+				"resultat"
+			],
+			[
+				"input_amag",
+				"input_amagat_feta"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"backgroudn",
+				"background-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"rec_",
+				"rec_checkbox_button"
+			],
+			[
+				"user",
+				"user_input"
+			],
+			[
+				"rec_che",
+				"rec_checkbox_button"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"camp_update_accio",
+				"camp_update_accio_feta"
+			],
+			[
+				"modal_dades_accio_",
+				"modal_dades_accio_empresa"
+			],
+			[
+				"mostra",
+				"mostrarImatgeAleatoria"
+			],
+			[
+				"arra",
+				"arrayImas"
+			],
+			[
+				"validar",
+				"validarFormatNumeric"
+			],
+			[
+				"comp",
+				"compteDC"
+			],
+			[
+				"codi",
+				"codiTargeta"
+			],
+			[
+				"cost",
+				"cost_assoc"
+			],
+			[
+				"boto_ba",
+				"boto_baixa_accio"
+			],
+			[
+				"codiEn",
+				"codiEntitat"
+			],
+			[
+				"numeroC",
+				"numeroCompte"
+			],
+			[
+				"nu",
+				"numeroCompteMod98"
+			],
+			[
+				"di",
+				"digitControlMod98"
+			],
+			[
+				"numeo",
+				"numeroCompte"
+			],
+			[
+				"camp_update_acc",
+				"camp_update_accio_empresa"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"size",
+				"font-size\tproperty"
+			],
+			[
+				"notifi",
+				"notifications"
+			],
+			[
+				"notif",
+				"notificacions"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"recodatori",
+				"recordatoriDefault"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"cal",
+				"calcularDigitControl"
+			],
+			[
+				"codiA",
+				"codiAgencia"
+			],
+			[
+				"numero",
+				"numeroCompte"
+			],
+			[
+				"data-",
+				"data-rec"
+			],
+			[
+				"input_data_accio",
+				"input_data_accio_recordatori"
+			],
+			[
+				"input_data_a",
+				"input_data_accio"
+			],
+			[
+				"input_data_acio",
+				"input_data_accio_recordatori"
+			],
+			[
+				"data_accio",
+				"input_data_accio"
+			],
+			[
+				"bg_",
+				"header_bg_color"
+			],
+			[
+				"notifica",
+				"notifications_bell"
+			],
+			[
+				"dropdown",
+				"dropdown-toggle"
+			],
+			[
+				"theme",
+				"theme_color"
+			],
+			[
+				"camp_up",
+				"camp_update_accio_lista"
+			],
+			[
+				"modal_dades",
+				"modal_dades_accio_empresa"
+			],
+			[
+				"valors_ti",
+				"valors_tipus_accions"
+			],
+			[
+				"valors_",
+				"valors_tipus_accions"
+			],
+			[
+				"select_tip",
+				"select_tipus_accio"
+			],
+			[
+				"camp_update_accio_",
+				"camp_update_accio_empresa"
+			],
+			[
+				"accio_reque",
+				"accio_requeriments_select"
+			],
+			[
+				"nume",
+				"numEmpleatsRangoIndex"
+			],
+			[
+				"camp_update_",
+				"camp_update_empresa"
+			],
+			[
+				"num_empleats",
+				"num_empleats_rango"
+			],
+			[
+				"boto_actuali",
+				"boto_actualitzar_equip"
+			],
+			[
+				"boto_cance",
+				"boto_cancellar_equip"
+			],
+			[
+				"boto_edi",
+				"boto_editar_equip"
+			],
+			[
+				"editar",
+				"editar_equip"
+			],
+			[
+				"dades_e",
+				"dades_equip"
+			],
+			[
+				"ff",
+				"ffffff"
+			],
+			[
+				"tipus",
+				"tipus_logo_select"
+			],
+			[
+				"them",
+				"theme_color"
+			],
+			[
+				"api_",
+				"api_secret"
+			],
+			[
+				"header_",
+				"header_bg_color"
+			],
+			[
+				"panels_",
+				"panels_bg_color"
+			],
+			[
+				"content",
+				"content_font_color"
+			],
+			[
+				"conte",
+				"content_bg_color"
+			],
+			[
+				"panel",
+				"panel_shadow"
+			],
+			[
+				"id_team",
+				"id_team_pf"
+			],
+			[
+				"ftp_",
+				"ftp_folder"
+			],
+			[
+				"nav-tab",
+				"nav-tab-3"
+			],
+			[
+				"modal_ca",
+				"modal_calendari_dades"
+			],
+			[
+				"modal_cal",
+				"modal_calendari"
+			],
+			[
+				"array",
+				"array_tots_contactes"
+			],
+			[
+				"cognom",
+				"cognom1"
+			],
+			[
+				"events",
+				"events_calendari_accions"
+			],
+			[
+				"taula_alt",
+				"taula_alt2_ds_empreses_accions"
+			],
+			[
+				"taula_alt2",
+				"taula_alt2_ds_empreses"
+			],
+			[
+				"array_con",
+				"array_contactes_empresa"
+			],
+			[
+				"taula_con",
+				"taula_contactes"
+			],
+			[
+				"taula_alt2_ds_empreses",
+				"taula_alt2_ds_empreses_accions"
+			],
+			[
+				"Back",
+				"Backoffice"
+			],
+			[
+				"form",
+				"form_display"
+			],
+			[
+				"text-dec",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"modif",
+				"modify_client_submit"
+			],
+			[
+				"modi",
+				"modify_client_submit"
+			],
+			[
+				"backrgound",
+				"background-size\tproperty"
+			],
+			[
+				"rea",
+				"no-repeat\tbackground-repeat"
+			],
+			[
+				"data_ba",
+				"data_baja_input"
+			],
+			[
+				"modify_clien",
+				"modify_client_panel"
+			],
+			[
+				"comprovar",
+				"comprovar_afegir_usuari"
+			],
+			[
+				"oblig",
+				"obligatori"
+			],
+			[
+				"col-md-",
+				"col-md-12"
+			],
+			[
+				"veu",
+				"veure_fotos"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2953,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 921,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ja",
+				"Javascript Beautify"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Con",
+				"Package Control: Install Package"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"xdebu",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/images"
+	],
+	"file_history":
+	[
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_2/index.html",
+		"/home/egc/Desktop/M09UF2Exam/style.css",
+		"/home/egc/ALT_filezilla/http/cms/emiliano/index_alt2_unstable.php",
+		"/home/egc/Documents/plantilla/color_admin_v2.0/admin/template_content_html/assets/plugins/morris/morris.min.js",
+		"/home/egc/Documents/plantilla/color_admin_v2.0/admin/template_content_html/index.html",
+		"/home/egc/Documents/plantilla/color_admin_v2.0/admin/template_content_html/assets/js/chart-morris.demo.js",
+		"/home/egc/ALT_filezilla/http/cms/includes/alt2/php/manteniment_alt2.php",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2_backup1.php",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2_unstable.php",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2_backup2.php",
+		"/home/egc/ALT_filezilla/http/cms/deactivate_client.php",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/CasasEmilianoUF2A3/arrays.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/CasasEmilianoUF2A3/exercici2.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/CasasEmilianoUF2A2/DigitBanc/RegExp.js",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/CasasEmilianoUF2A3/exercici2.js",
+		"/home/egc/ALT_filezilla/http/cms/delete_client.php",
+		"/home/egc/.config/sublime-text-3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/home/egc/ALT_filezilla/http/cms/assets/plugins/bootstrap/js/bootstrap.min.js",
+		"/home/egc/ALT_filezilla/http/cms/check_session_test.php",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2_copy.php",
+		"/home/egc/Desktop/M09 exam/Exercici_1/style.css",
+		"/home/egc/Desktop/M09 exam/Exercici_1/index.html",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2 (copy).php",
+		"/home/egc/Downloads/DigitBanc/jsss.js",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2 (b4 requeriments).php",
+		"/home/egc/Desktop/asdf.html",
+		"/home/egc/Desktop/asdf.js",
+		"/tmp/mozilla_egc0/associacio.js",
+		"/home/egc/ALT_filezilla/http/cms/index_ab_test.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/uf2_activitat_1/index.html",
+		"/home/egc/ALT_filezilla/http/cms/jquery.dataTables-ca.js",
+		"/home/egc/ALT_filezilla/http/pf/admin.php",
+		"/home/egc/ALT_filezilla/http/pf/javascript.js",
+		"/home/egc/ALT_filezilla/http/cms/manteniment_alt2.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/uf2_activitat_1/calculadora.js",
+		"/home/egc/ALT_filezilla/http/cms/index_alt2 (another copy).php",
+		"/home/egc/ALT_filezilla/http/cms/index_teak_test.php",
+		"/home/egc/ALT_filezilla/http/cms/index_mb92_test.php",
+		"/home/egc/ALT_filezilla/index_alt2.php",
+		"/home/egc/ALT_filezilla/index_alt_test.php",
+		"/home/egc/ALT_filezilla/index_alt2 (another copy).php",
+		"/home/egc/ALT_filezilla/index_alt2 (copy).php",
+		"/home/egc/ALT_filezilla/config_test.php",
+		"/home/egc/ALT_filezilla/index_ab_test.php",
+		"/home/egc/ALT_filezilla/index_alt2 (b4 program cases deletion).php",
+		"/home/egc/ALT_filezilla/manteniment_alt2.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/joc_de_cartes/test.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/joc_de_cartes/index.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/joc_de_cartes/M07_joc.sublime-project",
+		"/home/egc/Desktop/viewport.html",
+		"/home/egc/Desktop/M06 UF1 Activitat 8/associacio.html",
+		"/home/egc/Desktop/M06 UF1 Activitat 8/associacio.js",
+		"/home/egc/Downloads/PRACTICA5/css/estil.css",
+		"/home/egc/Downloads/PRACTICA5/index.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/index.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/ayylmao.php",
+		"/home/egc/Desktop/menus/menu1.css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/index.html",
+		"/home/egc/Downloads/Practica 3.Menu/CSS/estil.css",
+		"/home/egc/Desktop/menus/menu1.html",
+		"/home/egc/Downloads/Practica 3.Menu/index.html",
+		"/home/egc/learningBootstrap/index.html",
+		"/home/egc/Desktop/dewc.html",
+		"/home/egc/ALT_filezilla/index_example.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/template.php",
+		"/home/egc/Desktop/DIW Tasca/styles.css",
+		"/home/egc/Desktop/DIW Tasca/index.html",
+		"/home/egc/ALT_filezilla/index_example_no_ajax.php",
+		"/home/egc/ALT_filezilla/login_test.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/index.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/perfecte.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/template.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/tarta_sacher.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M06/<!DOCTYPE html>",
+		"/home/egc/ALT_filezilla/index_teak_test (copy).php",
+		"/home/egc/ALT_filezilla/index_example_original.php",
+		"/home/egc/ALT_filezilla/login1_test.php",
+		"/home/egc/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/egc/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/egc/ALT_filezilla/modify_client.php",
+		"/home/egc/ALT_filezilla/deactivate_client.php",
+		"/home/egc/ALT_filezilla/delete_client.php",
+		"/home/egc/ALT_filezilla/insert_client.php",
+		"/home/egc/Desktop/flexbox0.html",
+		"/home/egc/Desktop/flexbox.css",
+		"/home/egc/ALT_filezilla/index_teak_test.php",
+		"/home/egc/ALT_filezilla/index_teak.php",
+		"/home/egc/Desktop/menus/menu2.css",
+		"/home/egc/Desktop/menus/menu2.html",
+		"/home/egc/ALT_filezilla/client_details.php",
+		"/home/egc/ALT_filezilla/index_example (copy).php",
+		"/home/egc/Downloads/LearningPHP/src/connectToDB.php",
+		"/home/egc/Downloads/LearningPHP/src/js/functions.js",
+		"/home/egc/Downloads/LearningPHP/src/adduser.php",
+		"/home/egc/ALT_filezilla/insert_user.php",
+		"/home/egc/ALT_filezilla/index_teak_Test.php",
+		"/home/egc/Downloads/LearningPHP/public/categories_jquery.php",
+		"/home/egc/LearningPHP/src/deleteuser.php",
+		"/home/egc/ALT_filezilla/config.php",
+		"/home/egc/Downloads/index_teak.php",
+		"/home/egc/ALT_filezilla/login.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"=\"img-flu",
+			"src",
+			"images",
+			"/",
+			"src",
+			"block w-100\" ",
+			"href=\"#carouselExampleIndicators\"",
+			"w-100\" src"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1904,
+								1904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 1
+						},
+						"translation.x": 0.0,
+						"translation.y": 335.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							],
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 395.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 102.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.595220917671,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
