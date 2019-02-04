@@ -4,37 +4,77 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-color: grey;
+.body {
+	background-color: #e5e5e5;
 }
 
-.container {
-	background-color: black;
-
-
+.header,.footer {
+	background-color: #242f40;
+	color: #e5e5e5;
 }
 
-.header {
-	background-color: red;
-
+.header_cont,.footer_cont {
 	display: flex;
+	padding-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_cont {
 	justify-content: space-between;
 	align-items: end;
+	padding-bottom: .3em;
 }
 
 .header h1 {
-    font-family: 'Montserrat', sans-serif;
-    /*font-weight: 1000;*/
+    margin: 0;
 }
 
-.header a {
-	padding: 5px;
-	margin-right: 4%;
+.login {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #e5e5e5;
+}
+
+.login:hover {
+	color: #cca43b;
+}
+
+.header_cont div {
+	position: relative;
+}
+
+.header_cont .fa-shopping-cart {
+	font-size: 1.6rem;
+	padding-left: .5em;
+	color: #e5e5e5;
+}
+
+.header_cont .fa-shopping-cart:hover {
+	color: #cca43b;
+	cursor: pointer;
+}
+
+.header_cont .badge {
+	position: absolute;
+	top: -5px;
+	right: -13px;
+	font-weight: bold;
+}
+
+.main.container {
+	background-color: #cca43b;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .carousel {
 	background-color: blue;
 
+}
+
+.carousel-inner {
+	border: 15px solid #363636;
 }
 
 .carousel-item img {
@@ -43,11 +83,13 @@ body {
 }
 
 .products {
-	background-color: yellow;
-
+	background-color: #363636;
+	color: #e5e5e5;
+    font-family: 'Montserrat', sans-serif;
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	padding: 15px;
+	margin-top: 15px;
 }
 
 .prod-cat {
@@ -71,8 +113,29 @@ body {
 	object-fit: cover;
 }
 
-.footer {
-	background-color: green;
+.products h2 ~ h2 {
+	margin-top: 15px;
+}
+
+.footer_cont {
+	align-content: start;
+	padding-bottom: 1.5rem;
+}
+
+.social {
+	text-align: center;
+}
+
+.social div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 2.2rem;
+}
+
+.social i:hover {
+	cursor: pointer;
+	color: #cca43b;
 }
 
 @media (max-width: 1200px) {
@@ -84,6 +147,17 @@ body {
 	}
 	body {
 		background-color: green;s
+	}
+}
+
+@media (max-width: 768px) {
+	.footer_cont {
+		flex-direction: column;
+	}
+	.social div {
+		font-size: 4rem;
+		justify-content: center;
+		gap: 15px;
 	}
 }
 

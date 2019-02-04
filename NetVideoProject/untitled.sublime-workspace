@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
 				"space",
 				"space-around\tjustify-content"
 			],
@@ -435,7 +439,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2953,
+				"buffer_size": 4023,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -444,7 +448,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 921,
+				"buffer_size": 1509,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -510,12 +514,16 @@
 	},
 	"expanded_folders":
 	[
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/images"
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css"
 	],
 	"file_history":
 	[
+		"/home/egc/Downloads/config(1).php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/index.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_Tasca_7.1/css/style_articles.css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css/style.css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_Tasca_7.1/articles.html",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_2/index.html",
 		"/home/egc/Desktop/M09UF2Exam/style.css",
 		"/home/egc/ALT_filezilla/http/cms/emiliano/index_alt2_unstable.php",
@@ -621,7 +629,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -635,14 +643,6 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"=\"img-flu",
-			"src",
-			"images",
-			"/",
-			"src",
-			"block w-100\" ",
-			"href=\"#carouselExampleIndicators\"",
-			"w-100\" src"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -669,27 +669,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2953,
+						"buffer_size": 4023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1904,
-								1904
+								1440,
+								1440
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 1
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 335.0,
+						"translation.y": 166.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -704,30 +705,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 921,
+						"buffer_size": 1509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								576,
-								576
-							],
-							[
-								680,
-								680
+								886,
+								886
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 395.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -735,7 +733,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -761,7 +759,7 @@
 		"cols":
 		[
 			0.0,
-			0.595220917671,
+			0.622371967655,
 			1.0
 		],
 		"rows":
@@ -783,7 +781,7 @@
 	"project": "untitled.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -813,7 +811,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 		"xdebug":
@@ -824,7 +822,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 298.0,
 	"status_bar_visible": true,
 	"template_settings":
