@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<!-- <script src="js/functions.js"></script> -->
 		<title>NetVideo</title>
 	</head>
 	<div class="body">
@@ -15,9 +16,13 @@
 			<div class="header_cont container">
 				<h1>NetVideo</h1>
 				<div>
-					<a class="login" href="#">Login</a>
+					<!-- <a class="login" href="#">Login</a> -->
+					<!-- <div class="user_icon"> -->
+					<!-- </div> -->
+					<a class="username" href="#">Username</a>
+					<img class="user_icon" src="images/racoon-headshot1.jpg">
 					<i class="fas fa-shopping-cart"></i>
-					<span class="badge badge-pill badge-danger">3</span>
+					<span class="badge badge-pill badge-danger"></span>
 				</div>
 			</div>
 		</div>
@@ -30,13 +35,13 @@
 				</ol>
 				<div class="carousel-inner rounded">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="images/forest.jpg" alt="First slide">
+						<img class="d-block w-100" src="images/slider/forest.jpg" alt="First slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="images/pexels1.jpeg" alt="Second slide">
+						<img class="d-block w-100" src="images/slider/pexels1.jpeg" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="images/pexels2.jpeg" alt="Third slide">
+						<img class="d-block w-100" src="images/slider/pexels2.jpeg" alt="Third slide">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -48,54 +53,105 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
+
+			<div class="modal fade" id="movie_details" tabindex="-1" role="dialog" aria-labelledby="movie_details" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered modal-lg rounded-top" role="document">
+			    <div class="modal-content rounded-top">
+			      <div class="modal-body rounded-top">
+
+			        <video id="trailer" poster="images/transparent.png" width="100%">
+			        	<source src="vids/BLADE RUNNER 2049 - Official Trailer.mp4" type="video/mp4">
+			        </video>
+
+			        <div class="controls">
+			        	<div class="big_play">
+			        		<i class="fas fa-play"></i>
+			        	</div>
+		        		<input id="vid_slider" type="range" name="vid_time" value="0" min="0" max="50" step="1" valueAsNumber>
+			        	<div class="bottom_controls">
+			        		<div>
+			        			<i class="fas fa-play"></i>
+			        			<i class="fas fa-pause" style="display: none;"></i>
+			        			<i class="fas fa-volume-up"></i>
+			        			<i class="fas fa-volume-down"></i>
+			        			<i class="fas fa-volume-off"></i>
+			        			<input type="range" name="volume" value="1" min="0" max="1" step="0.01" valueAsNumber>
+			        		</div>
+			        		<div>
+			        			<i class="fas fa-arrows-alt"></i>
+			        		</div>
+			        	</div>
+			        </div>
+
+			      </div>
+			      <div class="modal-footer rounded-bottom">
+			      	<div>
+				        <h3 class="modal-title" id="exampleModalLongTitle">Blade Runner 2049</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="d-flex rounded-bottom">
+				      	<div class="col-12 col-sm-8 movie_text">
+				      		<p>Thirty years after the events of the first film, a new blade runner, LAPD Officer K (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former LAPD blade runner who has been missing for 30 years.</p>
+				      	</div>
+				      	<div class="modal_footer_bgrnd col-12 col-sm-4 rounded-bottom">
+									<img src="images/posters/bladerunner2049.jpg">
+				      	</div>
+				      </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
 			<div class="products rounded">
-				<h2>Cat 1</h2>
+				<h2>Drama</h2>
 				<div class="prod-cat">
 					<div class="col-12 col-xl-6">
-						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+						<div class="img_div col-12 col-md-4" data-toggle="modal" data-target="#movie_details">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
-						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+						<div class="img_div col-12 col-md-4" data-toggle="modal" data-target="#movie_details">
+							<img src="images/posters/aladin.jpg">
 						</div>
-						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+						<div class="img_div col-12 col-md-4" data-toggle="modal" data-target="#movie_details">
+							<img src="images/posters/finalportrait.jpeg">
 						</div>
 					</div>
 					<div class="col-12 col-xl-6">
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 					</div>
 				</div>
-				<h2>Cat 2</h2>
+				<h2>Comedy</h2>
 				<div class="prod-cat">
 					<div class="col-12 col-xl-6">
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 					</div>
 					<div class="col-12 col-xl-6">
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 						<div class="img_div col-12 col-md-4">
-							<img src="images/bladerunner2049.jpg">
+							<img src="images/posters/bladerunner2049.jpg">
 						</div>
 					</div>
 				</div>
@@ -118,8 +174,13 @@
 			</div>
 		</div>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+		<script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="js/vid_events.js"></script>
 	</div>
 </html>

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"ob",
+				"object-position\tproperty"
+			],
+			[
+				"fle",
+				"flex-end\talign-content"
+			],
+			[
+				"background-",
+				"background-position\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"vid",
+				"vid_slider"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"obj",
+				"object-position\tproperty"
+			],
+			[
+				"co",
+				"cover\tobject-fit"
+			],
+			[
 				"flex",
 				"flex-direction\tproperty"
 			],
@@ -54,10 +86,6 @@
 			[
 				"array_key",
 				"array_key_exists"
-			],
-			[
-				"max",
-				"max-height\tproperty"
 			],
 			[
 				"res",
@@ -451,7 +479,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5026,
+				"buffer_size": 8071,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +488,26 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2281,
+				"buffer_size": 4743,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/vid_events.js",
+			"settings":
+			{
+				"buffer_size": 2679,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/functions.js",
+			"settings":
+			{
+				"buffer_size": 179,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -525,20 +573,28 @@
 	"expanded_folders":
 	[
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/images",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css"
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject"
 	],
 	"file_history":
 	[
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/vids/ayylmao.php",
+		"/home/egc/Downloads/20190211-1897830314.json",
+		"/home/egc/Downloads/20190211-1897830394.json",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/js/functions.js",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/vid_events.js",
+		"/home/egc/ALT/ALT_filezilla/config.php",
+		"/tmp/mozilla_egc0/20190207-1897624550.json",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/bootstrap-4.2.1-dist/css/bootstrap.css",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/projects.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_3/index.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_2/index.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/index.html",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/css/style.css",
 		"/home/egc/Downloads/config(1).php",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/index.html",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_Tasca_7.1/css/style_articles.css",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css/style.css",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_Tasca_7.1/articles.html",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_2/index.html",
 		"/home/egc/Desktop/M09UF2Exam/style.css",
 		"/home/egc/ALT_filezilla/http/cms/emiliano/index_alt2_unstable.php",
 		"/home/egc/Documents/plantilla/color_admin_v2.0/admin/template_content_html/assets/plugins/morris/morris.min.js",
@@ -596,7 +652,6 @@
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/index.php",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M07/ayylmao.php",
 		"/home/egc/Desktop/menus/menu1.css",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/index.html",
 		"/home/egc/Downloads/Practica 3.Menu/CSS/estil.css",
 		"/home/egc/Desktop/menus/menu1.html",
 		"/home/egc/Downloads/Practica 3.Menu/index.html",
@@ -643,7 +698,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -657,6 +712,42 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"images/",
+			"pexels1",
+			"images/pexels1",
+			"mages/",
+			"ges/for",
+			"src",
+			"bladerunner2049",
+			"src=\"images/bladerunner2049",
+			"src=\"images/bladeru",
+			"src",
+			"video",
+			"hide.bs",
+			"hidden",
+			".val(",
+			"console.lo",
+			"color: #e5e5e5;",
+			"title",
+			"modal-ti",
+			"modal-foo",
+			"vd.volume",
+			"border",
+			"hover",
+			"console.log",
+			"console.lo",
+			"controls_display",
+			"control_display",
+			"border",
+			"bottom_controls",
+			" modal",
+			"modal ",
+			"exampleModalCenter",
+			".modal.in .m",
+			".modal.in .mod",
+			".modal.fade .mo",
+			".modal.fase .mod",
+			".modal-fade",
 			" col-12 ",
 			"col-sm",
 			"-md-12",
@@ -698,27 +789,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5026,
+						"buffer_size": 8071,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2355,
-								2355
+								917,
+								917
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -733,27 +825,86 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2281,
+						"buffer_size": 4743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1538,
-								1538
+								894,
+								894
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1185.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/vid_events.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1373,
+								1373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/functions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -787,7 +938,7 @@
 		"cols":
 		[
 			0.0,
-			0.645013477089,
+			0.536618386077,
 			1.0
 		],
 		"rows":
@@ -839,7 +990,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 		"xdebug":
@@ -847,7 +998,7 @@
 			"hide_conflict": false
 		}
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
