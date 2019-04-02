@@ -4,8 +4,32 @@
 		"selected_items":
 		[
 			[
+				"space",
+				"space-around\tjustify-content"
+			],
+			[
 				"ob",
 				"object-position\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"objcet",
+				"object-fit\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"text",
+				"text-align\tproperty"
 			],
 			[
 				"fle",
@@ -44,16 +68,8 @@
 				"inline\tdisplay"
 			],
 			[
-				"text-",
-				"text-decoration\tproperty"
-			],
-			[
 				"text-de",
 				"text-decoration\tproperty"
-			],
-			[
-				"space",
-				"space-between\tjustify-content"
 			],
 			[
 				"padding",
@@ -424,10 +440,6 @@
 				"text-decoration-color\tproperty"
 			],
 			[
-				"text",
-				"text-decoration\tproperty"
-			],
-			[
 				"bo",
 				"border-radius"
 			],
@@ -476,10 +488,18 @@
 	"buffers":
 	[
 		{
+			"file": "js/vid_events.js",
+			"settings":
+			{
+				"buffer_size": 2680,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8071,
+				"buffer_size": 8058,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -488,25 +508,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 4743,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/vid_events.js",
-			"settings":
-			{
-				"buffer_size": 2679,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/functions.js",
-			"settings":
-			{
-				"buffer_size": 179,
+				"buffer_size": 4828,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -573,10 +575,26 @@
 	"expanded_folders":
 	[
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject"
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/js"
 	],
 	"file_history":
 	[
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/css/style.css",
+		"/home/egc/ALT/ALT_filezilla/index_alt2.php",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css/style.css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/index.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/css/port_style.css",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/projects.html",
+		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/index.html",
+		"/home/egc/Desktop/M09 final/Exercici 1. Flex Box  Gestió de Video-20190212/recursos/icomoon/selection.json",
+		"/home/egc/Desktop/M09 final/Exercici 2. Bootstrap-20190212/style.css",
+		"/home/egc/Desktop/M09 final/Exercici 2. Bootstrap-20190212/index.html",
+		"/home/egc/Desktop/M09 final/Exercici 1. Flex Box  Gestió de Video-20190212/index.html",
+		"/home/egc/.cache/.fr-Lr7JBs/manifest.json",
+		"/home/egc/ALT/ALT_filezilla/index_ab_test.php",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/vids/ayylmao.php",
 		"/home/egc/Downloads/20190211-1897830314.json",
 		"/home/egc/Downloads/20190211-1897830394.json",
@@ -585,15 +603,10 @@
 		"/home/egc/ALT/ALT_filezilla/config.php",
 		"/tmp/mozilla_egc0/20190207-1897624550.json",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/bootstrap-4.2.1-dist/css/bootstrap.css",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/projects.html",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_3/index.html",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_UF2_2/index.html",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/index.html",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/css/style.css",
 		"/home/egc/Downloads/config(1).php",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/index.html",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_Tasca_7.1/css/style_articles.css",
-		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/NetVideoProject/css/style.css",
 		"/home/egc/dockerRepo/docker-compose-lamp/www/M09/M09_Tasca_7.1/articles.html",
 		"/home/egc/Desktop/M09UF2Exam/style.css",
 		"/home/egc/ALT_filezilla/http/cms/emiliano/index_alt2_unstable.php",
@@ -712,57 +725,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"images/",
-			"pexels1",
-			"images/pexels1",
-			"mages/",
-			"ges/for",
-			"src",
-			"bladerunner2049",
-			"src=\"images/bladerunner2049",
-			"src=\"images/bladeru",
-			"src",
-			"video",
-			"hide.bs",
-			"hidden",
-			".val(",
-			"console.lo",
-			"color: #e5e5e5;",
-			"title",
-			"modal-ti",
-			"modal-foo",
-			"vd.volume",
-			"border",
-			"hover",
-			"console.log",
-			"console.lo",
-			"controls_display",
-			"control_display",
-			"border",
-			"bottom_controls",
-			" modal",
-			"modal ",
-			"exampleModalCenter",
-			".modal.in .m",
-			".modal.in .mod",
-			".modal.fade .mo",
-			".modal.fase .mod",
-			".modal-fade",
-			" col-12 ",
-			"col-sm",
-			"-md-12",
-			"md-12 c",
-			"col-sm",
-			"col-sm-4",
-			"xs-6\">",
-			"ol-lg-4\">",
-			"lg-6\">",
-			"col-lg",
-			"lg-2\"",
-			"<div>",
-			"img_div\">",
-			"<div>",
-			"<div >"
+			"modal-body",
+			"trailer",
+			"e d-md-block\">\n\t\t\t\t\t\t\t<h1>A Movie Title</h1>",
+			"ass=\"d-block w-1",
+			"són obligatoris",
+			"obligatoris",
+			"tots els camp",
+			"-md-4 col-xl-2\">",
+			"col-lg-2",
+			"col-lg-",
+			"l-md-4",
+			"prod-cat"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -780,24 +754,53 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "js/vid_events.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8071,
+						"buffer_size": 2680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								917,
-								917
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7410,
+								7410
 							]
 						],
 						"settings":
@@ -807,10 +810,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 2160.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -820,91 +823,32 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4743,
+						"buffer_size": 4828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								894,
-								894
+								1712,
+								1712
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 1470.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/vid_events.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2679,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1373,
-								1373
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/functions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 179,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								179,
-								179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -938,7 +882,7 @@
 		"cols":
 		[
 			0.0,
-			0.536618386077,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1001,7 +945,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 298.0,
 	"status_bar_visible": true,
 	"template_settings":

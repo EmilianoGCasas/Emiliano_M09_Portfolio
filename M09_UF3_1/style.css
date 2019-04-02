@@ -1,0 +1,337 @@
+/*
+Links in paragraphs:
+<p>Informe....
+	<a href="resultat.html">Resultat</a>
+</p>
+
+aria-label
+
+"saltera" section, hidden over page. Contains text readable by
+screen readers.
+
+To identify what we're focused on,
+- Show visually where focus is.
+- Read order doesn't make sense to screen readers.
+- Focus traps (modals, iframes, etc); gotta be able to keyboard to
+  exit.
+- Focus changes context w/o warning
+
+Do 2 of these:
+- mapa del sitio; links to all the pages.
+- función de búsqueda
+- Tabla de contenido; index of site w/ links.
+
+link rel="prev" href="..."
+link rel="next" href="..."
+
+nav title="asdf"
+ul
+li
+li
+ul
+nav
+
+Do some of these:
+- form
+- table
+- breacrumb
+- links
+- mapa del sitio or tabla de contenido
+- focus
+- language
+
+oercommons.org copy this
+*/
+
+body {
+	background-color: #f8f9fa;
+}
+
+/* NAVBAR */
+
+.acc_dropdown > div {
+	/*display: flex;
+	flex-direction: row;
+	justify-content: flex-end;*/
+}
+
+.acc_keyboard {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+/*.acc_keyboard > div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-right: 1rem;
+}*/
+
+/*.acc_keyboard > div p {
+	margin: 0;
+	flex: 0 0 auto;
+}*/
+
+.acc_keyboard i {
+	font-size: 3em;
+	margin-right: .3em;
+}
+
+.acc_keyboard > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.acc_keyboard p {
+	margin: 0;
+	font-size: 1.3rem;
+}
+
+/*.acc_keyboard > label {
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.acc_keyboard > label p {
+	margin-bottom: 0;
+}*/
+
+.navbar {
+	border-bottom: .3em solid #ed7d3a;
+}
+
+.navbar .btn {
+	font-weight: bold;
+}
+
+.nav_options {
+	background-color: #363537;
+	font-color: white;
+	text-align: center;
+}
+
+.my_brand {
+    font-family: 'Coiny', cursive;
+    display: flex;
+    align-items: center;
+    margin-right: .5em;
+}
+
+.navbar .dropdown-menu {
+	background-color: #363537;
+}
+
+.navbar .dropdown-item:hover {
+	background-color: #dadada;
+	color: #363537 !important;
+}
+
+.navbar-collapse {
+	gap: .5em;
+}
+
+.nav_options {
+	padding: .2em .6em;
+}
+
+.nav_options a {
+	color: white !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+}
+
+.nav_options a:hover {
+	color: #363537 !important;
+	background-color: #dadada;
+}
+
+.search_form {
+	justify-content: end;
+}
+
+.search_form > input {
+	margin: 0 !important;
+	max-width: 220px;
+	width: 100% !important;
+}
+
+.account_form {
+	justify-content: end;
+}
+
+.account_form,.search_form {
+	padding: 1em;
+	background-color: #ececec;
+	gap: .5em;
+}
+
+.signup_button {
+	color: white;
+}
+
+/* MAIN */
+.strip {
+	background-color: #164059;
+	padding: 3.5em 0;
+}
+
+.strip_container {
+	color: white;
+}
+
+.strip_container h1 {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: .4em;
+}
+
+.strip_container h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.strip_container p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bread {
+	padding: .5rem 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bread > p {
+	margin: 0;
+}
+
+.stats {
+	display: flex;
+	gap: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img2 {
+	object-fit: cover;
+}
+
+.text_container {
+	padding: 2em;
+}
+
+.text_container > div {
+	gap: 1em;
+}
+
+.text_box {
+	background-color: #f5f5f5;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_box > h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.text_box > div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box_text {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+}
+
+.box_text i {
+	padding-top: 5px;
+}
+
+.side_box > div {
+	background-color: #f5f5f5;;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.side_box > div > h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.sibe_box > div > button {
+	width: 100%;
+}
+
+.side_box > div > p {
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 0;
+}
+
+.includes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.inclusion {
+	display: flex;
+	gap: .5rem;
+	padding: 0 .15rem;
+}
+
+.links {
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    font-family: 'Roboto Slab', serif;
+    font-size: .9rem !important;
+    margin-bottom: 3em;
+    padding: 1em .5em;
+    flex-wrap:wrap;
+}
+
+.links > div {
+	/*background-color: orange;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/*align-items: center;*/
+	flex: 0 0 auto;
+	/*font-size: .9rem !important;*/
+	min-width: 200px;
+	padding-bottom: 1em;
+}
+
+#links_row {
+	flex-direction: row;
+}
+
+#links_row > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*align-items: center;*/
+	flex: auto;
+	/*font-size: .9rem !important;*/
+
+}
+
+.links a {
+    color: #0e2838;
+    font-family: 'Roboto Slab', serif;
+    padding: .5rem 1rem;
+}
+
+#dropdownMenuButton, {
+	font-size: .9rem;
+}
+
