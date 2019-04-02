@@ -22,7 +22,10 @@
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <div class="collapse navbar-collapse focus_cont" id="navbarSupportedContent">
+	  	<div class="focus focus_nav">
+	  		<p>1</p>
+	  	</div>
 	    <ul class="navbar-nav mr-auto rounded nav_options">
 	      <li class="nav-item active">
 	        <a class="nav-link rounded" href="#">Development <span class="sr-only">(current)</span></a>
@@ -50,9 +53,9 @@
 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 	    </form> -->
 	    <form class="form-inline my-2 my-lg-0 account_form rounded">
-	      <button class="btn btn-outline-dark login_button" type="button">Login</button>
+	      <button id="login" class="btn btn-outline-dark login_button" type="button">Login</button>
 	      <button class="btn btn-outline-danger signup_button bg-danger" type="button">Sign Up</button>
-	      <a class="btn btn-primary" data-toggle="collapse" href="#acc_dropdown" role="button">Accessibility</a>
+	      <a id="acc_button" class="btn btn-primary" data-show="show" data-toggle="collapse" href="#acc_dropdown" role="button">Accessibility</a>
 	      <!-- <div>
 					<button class="btn btn-light dropdown-toggle border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Language
@@ -69,25 +72,43 @@
 
 	<div class="collapse" id="acc_dropdown">
 	  <div class="card card-body">
-	  	<div class="acc_keyboard">
-			<i class="fas fa-keyboard"></i>
-				<div>
-  				<p>Use keyboard to navigate: 1. Site Navigation, 2. Page Navigation, 3. Breadcrumb Trail, 4. Course Title, 5. Course Content, 6. Course Enrollment, 7. Footer</p>
-  			</div>
+	  	<div class="acc_keyboard focus_cont" id="focus_2">
+			<div class="focus focus_collapse">
+				<p>2</p>
+			</div>
+			<h1><i class="fas fa-keyboard"></i>Use keyboard to navigate:</h1>
+			<!-- <div> -->
+  				<!-- <p>Use keyboard to navigate: 1. Site Navigation, 2. Page Navigation, 3. Breadcrumb Trail, 4. Course Title, 5. Course Content, 6. Course Enrollment, 7. Footer</p> -->
+  				<ol>
+  					<li>Site Navigation</li>
+  					<li>Page Navigation</li>
+  					<li>Breadcrumb Trail</li>
+  					<li>Course Title</li>
+  					<li>Course Content</li>
+  					<li>Course Enrollment</li>
+  					<li>Footer</li>
+  				</ol>
+  			<!-- </div> -->
 			<!-- <button class="btn btn-dark" type="button" data-active="true">Use keyboard to navigate</button> -->
 	    </div>
 	  </div>
 	</div>
 
 	<div class="main">
-		<div class="bread_container container">
+		<div class="bread_container container focus_cont" id="focus_3">
+			<div class="focus focus_bread">
+				<p>3</p>
+			</div>
 			<div class="bread">
 				<p><a>Development&nbsp;&nbsp;>&nbsp;&nbsp;<b>Web Development</b></p>
 			</div>
 		</div>
 
 		<div class="strip">
-			<div class="strip_container container">
+			<div class="strip_container container focus_cont" id="focus_4">
+				<div class="focus focus_strip">
+					<p>4</p>
+				</div>
 				<div class="row">
 					<div class="col-12 col-lg-9">
 						<h1>Aprende Accesibilidad Web paso a paso</h1>
@@ -113,8 +134,11 @@
 
 		<div class="text_container container-fluid">
 			<div class="d-flex flex-column flex-lg-row">
-				<div class="text_box rounded border">
-					<h2>What you'll learn</h2>
+				<div class="text_box rounded border focus_cont" id="focus_5">
+					<div class="focus focus_course">
+						<p>5</p>
+					</div>
+					<h1>What you'll learn</h1>
 					<div>
 						<div class="box_text col-12 col-lg-6">
 							<i class="fas fa-check text-secondary"></i>
@@ -134,9 +158,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="side_box">
+				<div class="side_box focus_cont" id="focus_6">
+					<div class="focus focus_side">
+						<p>6</p>
+					</div>
 					<div class="rounded border">
-						<h2>FREE</h2>
+						<h1>FREE</h1>
 						<button type="button" class="btn btn-danger">Enroll Now</button>
 						<p class="lead">Includes:</p>
 						<div class="includes">
@@ -171,7 +198,10 @@
 		</div>
 
 		<div class="footer">
-			<div class="links border-top border-bottom">
+			<div class="links border-top border-bottom focus_cont" id="focus_7">
+				<div class="focus focus_footer">
+					<p>7</p>
+				</div>
 				<div>
 					<a href="#"><b>Umedy for Business</b></a>
 					<a href="#"><b>Become an instructor</b></a>
@@ -217,7 +247,99 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script>
 	$(document).ready(function() {
+		let focus_eles = document.querySelectorAll(".focus");
+		let acc_button = document.getElementById("acc_button");
+		let focus_conts = document.querySelectorAll(".focus_cont");
 
+		showBorders(0);
+
+		acc_button.addEventListener("click", function(e) {
+			e.preventDefault();
+			if (this.getAttribute("data-show") == "show") {
+				showBorders(1);
+				window.addEventListener("keydown", focusKeys);
+			} else {
+				showBorders(0);
+				window.removeEventListener("keydown", focusKeys);
+			}
+		});
+
+		function showBorders(action) {
+			if (action == 1) {
+				acc_button.setAttribute("data-show", "hide");
+
+				focus_conts.forEach(function(ele) {
+					ele.setAttribute("style", "border: solid maroon .4rem !important");
+				});
+
+				focus_eles.forEach(function(ele) {
+					ele.style.display = "block";
+				});
+
+			} else {
+				acc_button.setAttribute("data-show", "show");
+
+				focus_conts.forEach(function(ele) {
+					ele.removeAttribute("style");
+				});
+
+				focus_eles.forEach(function(ele) {
+					ele.style.display = "none";
+				});
+			}
+		}
+
+		function focusKeys(e) {
+			if (e.code != "Digit1" && e.code != "Digit2" && e.code != "Digit3" && e.code != "Digit4" && e.code != "Digit5" && e.code != "Digit6" && e.code != "Digit7") {
+				return;
+			}
+			e.preventDefault();
+
+			switch (e.code) {
+				case "Digit1":
+					let one = document.getElementById("navbarSupportedContent");
+					one.scrollIntoView();
+					one.focus();
+					break;
+				case "Digit2":
+					let two = document.getElementById("focus_2");
+					two.scrollIntoView();
+					two.focus();
+					break;
+				case "Digit3":
+					let three = document.getElementById("focus_3");
+					three.scrollIntoView();
+					three.focus();
+					break;
+				case "Digit4":
+					let four = document.getElementById("focus_4");
+					four.scrollIntoView();
+					four.focus();
+					break;
+				case "Digit5":
+					let five = document.getElementById("focus_5");
+					five.scrollIntoView();
+					five.focus();
+					break;
+				case "Digit6":
+					let six = document.getElementById("focus_6");
+					six.scrollIntoView();
+					six.focus();
+					break;
+				case "Digit7":
+					let seven = document.getElementById("focus_7");
+					seven.scrollIntoView();
+					seven.focus();
+					break;
+			}
+		}
+
+		document.getElementById("login").addEventListener("click", function(e) {
+			e.preventDefault();
+			// window.location.href = window.location.href.substring(0, url.length - 10) + "login.html";
+			let url = window.location.href;
+			window.location.href = url.substring(0, url.length - 10) + "login.html";
+		});
 
 	});
 </script>
