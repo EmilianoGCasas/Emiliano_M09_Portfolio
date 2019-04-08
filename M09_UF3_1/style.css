@@ -35,6 +35,9 @@ Do some of these:
 - >focus @ in collapse; keyboard nav
 - table @ its own page; Course content in 1st page
 - form @ its own page; login screen in 2nd page
+	- <label for="id">... OR 'title' attribute
+	- Notify user error w/ text and color. Move focus to these w/ js.
+	- instructions of how to fill form (probably in label)
 - fix any links @
 - breacrumb @
 - language in collapse;

@@ -342,6 +342,58 @@ body {
 	font-size: .9rem;
 }
 
+/* LOGIN */
+
 .login_cont {
-	background-color: lightblue;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+	flex: 0 0 auto;
+	padding: 0;
+}
+
+.login_heading {
+	background-color: #164059;
+	color: white;
+	padding-top: 3em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_heading h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.login_inputs {
+	background-color: #f5f5f5;
+	border: 1px;
+	border: 1px solid #dee2e6 !important;
+	padding: 1em;
+}
+
+.login_inputs label {
+	margin: 0;
+	margin-right: 1em;
+}
+
+.login_username,.login_password,.container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 1rem;
+}
+
+.login_submit {
+	display: flex;
+	justify-content: end;
+	align-content: center;
+}
+
+.login_username_error,.login_password_error {
+	text-align: center;
+	color: red;
 }

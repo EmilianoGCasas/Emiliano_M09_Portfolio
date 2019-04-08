@@ -26,7 +26,7 @@
 	  	</div>
 	    <ul class="navbar-nav mr-auto rounded nav_options">
 	      <li class="nav-item active">
-	        <a class="nav-link rounded" href="#">Development <span class="sr-only">(current)</span></a>
+	        <a class="nav-link rounded" href="index.html">Development <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link rounded" href="#">Business</a>
@@ -64,10 +64,7 @@
 				<ol>
 					<li>Site Navigation</li>
 					<li>Page Navigation</li>
-					<li>Breadcrumb Trail</li>
-					<li>Course Title</li>
-					<li>Course Content</li>
-					<li>Course Enrollment</li>
+					<li>Login</li>
 					<li>Footer</li>
 				</ol>
 	    </div>
@@ -75,14 +72,41 @@
 	</div>
 
 	<div class="main">
-		<div class="container login_cont">
-			asdf
+		<div class="container">
+			<div class="login_cont col-lg-8 col-xl-7 focus_cont" id="focus_3">
+				<div class="focus">
+					<p>3</p>
+				</div>
+				<div class="login_heading">
+					<h1>Login</h1>
+					<p>Enter your username and password and click on the 'Login' button below.</p>
+				</div>
+				<div class="login_inputs">
+					<div class="login_username_error" style="display: none">
+						<p>Please enter a valid username.</p>
+					</div>
+					<div class="login_username">
+						<label for="username">Username</label>
+						<input id="username" type="text" name="username" placeholder="Your username here">
+					</div>
+					<div class="login_username_error" style="display: none">
+						<p>Please enter a valid password.</p>
+					</div>
+					<div class="login_password">
+						<label for="password">Password</label>
+						<input id="password" type="text" name="password" placeholder="Your password here">
+					</div>
+					<div class="login_submit">
+						<input id="submit" type="submit" value="Click here to login">
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="footer">
-			<div class="links border-top border-bottom focus_cont" id="focus_7">
+			<div class="links border-top border-bottom focus_cont" id="focus_4">
 				<div class="focus focus_footer">
-					<p>7</p>
+					<p>4</p>
 				</div>
 				<div>
 					<a href="#"><b>Umedy for Business</b></a>
@@ -165,7 +189,7 @@
 		}
 
 		function focusKeys(e) {
-					if (e.code != "Digit1" && e.code != "Digit2" && e.code != "Digit3" && e.code != "Digit4" && e.code != "Digit5" && e.code != "Digit6" && e.code != "Digit7") {
+					if (e.code != "Digit1" && e.code != "Digit2" && e.code != "Digit3" && e.code != "Digit4") {
 						return;
 					}
 					e.preventDefault();
@@ -191,23 +215,26 @@
 							four.scrollIntoView();
 							four.focus();
 							break;
-						case "Digit5":
-							let five = document.getElementById("focus_5");
-							five.scrollIntoView();
-							five.focus();
-							break;
-						case "Digit6":
-							let six = document.getElementById("focus_6");
-							six.scrollIntoView();
-							six.focus();
-							break;
-						case "Digit7":
-							let seven = document.getElementById("focus_7");
-							seven.scrollIntoView();
-							seven.focus();
-							break;
 					}
 				}
+
+				document.getElementById("submit").addEventListener("click", function(e) {
+					e.preventDefault();
+					let un = document.getElementById("username");
+					let pass = document.getElementById("password");
+					let errors = document.querySelectorAll(".login_username_error,.login_password_error");
+					if (un.value == "") {
+						un.style.background = '#e6acb1';
+					}
+
+					if (pass.value == "") {
+						pass.style.background = '#e6acb1';
+					}
+
+					errors.forEach(function(ele) {
+						ele.style.display = 'inline';
+					});
+				});
 
 	});
 </script>
